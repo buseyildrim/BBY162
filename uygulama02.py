@@ -1,9 +1,8 @@
 """
 Python ödev 2
-"Bunları biliyor musun?"
 Buse Yıldırım
 """
-print("*** Merhaba, Bunları biliyor musun? ***")
+print("*** Merhaba, Mini bir genel kültür testine ne dersin? ***")
 print("Aşağıdakilerden hangisi doğrudur? ")
 print("-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-")
 sorular = ["Salatalık ne tür bir yiyecektir?",\
@@ -27,7 +26,7 @@ for i in range (len(sorular)):
     cevap = input("cevabınızı giriniz: ")
     if cevaplar[i] == cevap.upper():
        puan +=1
-print("Testin sonuna geldiniz. Eğer puanınız 0-50 aralığında ise testi tekrar çözünüz. 50 ve üstü puanlar için Tebrikler!")
+print("Testin sonuna geldiniz. Eğer puanınız 0-50 aralığında ise genel kültür seviyenizi tekrar gözden geçirmelisiniz. 50 ve üstü puanlar için Tebrikler!")
 print("Aldığınız not: "+ str(int((puan/len(sorular))*100)))
 
 
