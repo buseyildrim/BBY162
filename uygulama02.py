@@ -2,20 +2,20 @@
 Python ödev 2
 Buse Yıldırım
 """
-print("*** Merhaba, Mini bir genel kültür testine ne dersin? ***")
+print("*** Merhaba, mini bir genel kültür testine ne dersin? ***")
 print("Aşağıdakilerden hangisi doğrudur? ")
 print("-*-*-*-*-*-*-*--*-*-*-*-*-*-*-*-*-")
-sorular = ["Salatalık ne tür bir yiyecektir?",\
+sorular = ["Ankara ne zaman başkent olmuştur?",\
            "Atların insanlardan ne kadar fazla kemiği vardır ? ",\
            "Mavi rengi görebilen tek kuş türü nedir? ",\
            "Gözü beyninden küçük olan canlı hangisidir?",\
            "Aşağıdakilerden hangisi kendilerine özgü parmak izi olan canlılardan değildir?",]
 
 cevaplar = ["A","B", "A", "C", "D"]
-cevapA =["Meyve", "17", "Baykuş", "Maymun", "Koalalar" ]
-cevapB =["Sebze", "18", "Yarasa", "Ördek", "Primatlar"]
-cevapC =["Tatlı", "30", "Akbaba", "Devekuşu", "İnsanlar"]
-cevapD =["Bilinmiyor", "18", "Papağan","İnsan","Hayvanlar"]
+cevapA =["1923", "17", "Baykuş", "Maymun", "Koalalar" ]
+cevapB =["1919", "18", "Yarasa", "Ördek", "Primatlar"]
+cevapC =["1933", "30", "Akbaba", "Devekuşu", "İnsanlar"]
+cevapD =["1932", "18", "Papağan","İnsan","Hayvanlar"]
 puan =0
 for i in range (len(sorular)):
     print("soru " + str(i+1)+":"+sorular[i])
