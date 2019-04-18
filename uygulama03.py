@@ -30,8 +30,8 @@ if kelimeler== "Delhi":
     print(sözlük["Delhi"])
 if kelimeler=="Washington":
     print(sözlük["washington"])
-if kelimeler=="cakarta":
-    print(sözlük["cakarta"])
+if kelimeler=="Cakarta":
+    print(sözlük["Cakarta"])
 if kelimeler=="Brasilia":
     print(sözlük["Brasilia"])
 
@@ -45,7 +45,7 @@ print(kelimeler)
 while canSayisi > 0:
 
     can = 0
-    tahmin = input("bir harf girin: ")
+    tahmin = input("Harf giriniz: ")
     tahmin = tahmin.upper()
 
     if tahmin in kelimeListesi:
@@ -66,7 +66,7 @@ while canSayisi > 0:
         print(canSayisi, "Canınız Kaldı")
 
     if canSayisi == 0:
-        print('Maalesef bilemediniz!Doğru kelime "{}"'.format(kelimeListesi))
+        print('Üzgünüm bilemediniz!Doğru kelime "{}"'.format(kelimeListesi))
         break
 
 
