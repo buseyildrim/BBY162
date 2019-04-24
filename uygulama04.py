@@ -16,7 +16,7 @@ kelime=[]
 
 sozluk=input("Öğrenmek istediğiniz kelimeyi giriniz!")
 cevap = input("kelime:")
-cevap = cevap.capitalize()
+cevap = cevap.input() 
 if cevap in sozluk:
     print(sozluk[cevap])
 else:
