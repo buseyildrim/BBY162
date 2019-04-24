@@ -15,10 +15,10 @@ sozluk = {"Elma" : "Ağaçta yetişen bir tür meyve" , "Salatalık" : "Fidan ü
 kelime=[]
 
 sozluk=input("Öğrenmek istediğiniz kelimeyi giriniz!")
-    cevap = input("kelime:")
-    cevap = cevap.capitalize()
-    if cevap in sozluk:
-        print(sozluk[cevap])
-    else:
-        print("kelime yok")
+cevap = input("kelime:")
+cevap = cevap.capitalize()
+if cevap in sozluk:
+    print(sozluk[cevap])
+else:
+    print("kelime yok")
         
