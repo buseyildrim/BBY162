@@ -20,5 +20,5 @@ cevap = cevap.capitalize()
 if cevap in sozluk:
     print(sozluk[cevap])
 else:
-    print("kelime yok")
+    print("kelime bulunamadı!!")
         
