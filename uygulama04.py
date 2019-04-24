@@ -13,12 +13,10 @@ for i in liste:
 #comment3
 sozluk = {"Elma" : "Ağaçta yetişen bir tür meyve" , "Salatalık" : "Fidan üzerinde büyüyen bir tür sebze" }
 kelime=[]
-
-sozluk=input("Öğrenmek istediğiniz kelimeyi giriniz!")
-cevap = input("kelime:")
-cevap = cevap.input() 
-if cevap in sozluk:
-    print(sozluk[cevap])
+kelime = input("Lütfen Kelimeyi Giriniz !?: ")
+if kelime in sozluk:
+    cevap = "{} : {}"
+    print(cevap.format(kelime,sozluk[kelime]))
 else:
-    print("kelime bulunamadı!!")
-        
+    print("Malesef.. Bu Kelime mevcut değil!")
+
